@@ -35,6 +35,7 @@ This script accepts 7 parameters, and each must be supplied to ensure that your 
     - This indicates whether or not the Ethereum RPC API is enabled
  - 7. enode URL
     - This is the enode URL of the boot node that you are connecting to. Does not need to be supplied for   non boot nodes.
+
 First, you must start the boot node. This is the node that will be used as a connection point for the rest of your nodes.
 In order to start the boot node, run `run.sh` supplying `1` for the first parameter, your publicly facing IP address as the second parameter, and your network ID as the third parameter.
 When the node starts, your terminal will show information regarding the starting parameters. Scan through the information to find the enode url, and copy it to a note pad. The enode url will have the following format:
